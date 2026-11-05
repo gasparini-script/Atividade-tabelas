@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.tabela-normal {
+    border-collapse: separate;
+    border-spacing: 3px;
+    border: 1px solid #808080;
+    width: 80%;
+    max-width: 800px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    text-align: left;
+}
+
+.tabela-normal caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.tabela-normal th, 
+.tabela-normal td {
+    border: 1px solid #808080;
+    padding: 12px;
+    color: #000000;
+    background-color: #e6f4ff;
+}
+
+.tabela-normal th {
+    background-color: #808080;
+    color: #ffffff;
+    text-align: center;
+}
+
+.tabela-normal tbody tr:nth-child(even) td {
+    background-color: #eeeeee;
+}
+.tabela-imagem {
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 1000px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.tabela-imagem caption {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #ed7d31;
+    margin-bottom: 15px;
+}
+
+.tabela-imagem th, 
+.tabela-imagem td {
+    border: 1px solid #cccccc;
+    padding: 15px;
+    font-size: 1em;
+    color: #333333;
+}
+
+.tabela-imagem th {
+    background-color: #ed7d31;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.tabela-imagem .header-lateral {
+    background-color: #ed7d31;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.tabela-imagem .trabalho {
+    background-color: #fff3e0;
+}
+
+.tabela-imagem .estudo {
+    background-color: #e3f2fd;
+}
+.rodape { 
+    text-align: center;
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: #000000;
+}
